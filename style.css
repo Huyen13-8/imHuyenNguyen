@@ -1,0 +1,377 @@
+@media (min-width: 400px) {
+    .c-fluid {
+      width: 100%;
+      height: 100vh;
+      background-color: #f9f5f6;
+      background-size: cover;
+    }
+    .c-fluid h2 {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+  
+  
+    .page-slider {
+      width: 100%;
+      height: 30px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 40px;
+      background-color: #f2bed1;
+    }
+  
+  
+    .page-slider ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+    }
+  
+  
+    .page-slider ul li {
+      font-family: arial;
+      font-size: 15px;
+      list-style: none;
+      margin-right: 30px;
+      cursor: pointer;
+    }
+    .page-slider button {
+      width: 180px;
+      border-color: black;
+      background-color: #f8e8ee;
+      border-width: 1.5px;
+      text-align: center;
+      margin: 4px 2px;
+      padding: 8px;
+      border-radius: 8px;
+    }
+  
+  
+    #about {
+      width: 1000px;
+      height: 100vh;
+      margin: auto;
+      display: flex;
+    }
+  
+  
+    span {
+      color: purple;
+    }
+  
+  
+    span1 {
+      color: blue;
+    }
+  
+  
+    #about h1 {
+      font-weight: bold;
+      font-size: 50px;
+      padding-top: 20vh;
+    }
+    #about p {
+      width: 90%;
+      padding-top: 30px;
+      font-size: 18px;
+    }
+  
+  
+    #about ul {
+      width: 88%;
+      display: flex;
+      justify-content: center;
+      align-items: normal;
+      padding-top: 20px;
+    }
+  
+  
+    #about ul li {
+      font-family: arial;
+      font-size: 15px;
+      list-style: none;
+      margin-right: 50px;
+      cursor: pointer;
+    }
+  
+  
+    #about button {
+      width: 180px;
+      border-color: black;
+      background-color: #f8e8ee;
+      border-width: 1.5px;
+      text-align: center;
+      margin: 4px 2px;
+      padding: 8px;
+      border-radius: 8px;
+    }
+  
+  
+    #about img {
+      width: 400px;
+      height: 500px;
+      display: center;
+      padding-top: 20vh;
+      border-radius: 8px;
+    }
+  
+  
+    #basic-information {
+      width: 100%;
+      height: 50vh;
+      margin: auto;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      background-color: #f0ebe3;
+      display: flex;
+    }
+  
+  
+    #basic-information .Basic-Child1 {
+      padding-left: 50px;
+      padding-right: 50px;
+      width: 50%;
+    }
+  
+  
+    #basic-information .Basic-Child1 h3 {
+      font-size: 30px;
+    }
+  
+  
+    #basic-information .Basic-Child1 p {
+      line-height: 40px;
+    }
+  
+  
+    #basic-information .Basic-Child2 {
+      padding-left: 50px;
+      padding-right: 50px;
+      width: 50%;
+    }
+    #ListInBasic {
+      display: flex;
+    }
+  
+  
+    #ListInBasic #col_left ul {
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      flex: 1;
+      line-height: 40px;
+    }
+  
+  
+    #ListInBasic #col_left ul li {
+      font-family: arial;
+      font-size: 15px;
+      list-style: none;
+      margin-right: 30px;
+    }
+  
+  
+    #ListInBasic #col_right ul {
+      padding-left: 100px;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      flex: 1;
+      line-height: 40px;
+    }
+  
+  
+    #ListInBasic #col_right ul li {
+      font-family: arial;
+      font-size: 15px;
+      list-style: none;
+      margin-right: 30px;
+    }
+  
+  
+    #Education {
+      width: 100%;
+      height: 80vh;
+      margin: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #f9f5f6;
+    }
+  
+  
+    #Education h3 {
+      padding-left: 50px;
+    }
+  
+  
+    .educationBox {
+      height: 20vh;
+      margin: 50px;
+      display: flex;
+    }
+  
+  
+    .LeftEducation {
+      padding-top: 3vh;
+      width: 30%;
+      background-color: #e1afd1;
+      padding: 5vh;
+    }
+  
+  
+    .RightEducation {
+      padding-top: 3vh;
+      width: 70%;
+      background-color: white;
+      padding-left: 5vh;
+    }
+  
+  
+    #form {
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+  
+  
+    #submit {
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      display: flex;
+      line-height: 40px;
+    }
+  
+  
+    #submit li {
+      font-family: arial;
+      font-size: 15px;
+      list-style: none;
+      margin-right: 40px;
+    }
+  }
+  
+  
+  /* Adjustments for screens narrower than 400px ////////////////////////////////////////////////////////////////*/
+  @media (max-width: 400px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+  
+    .c-fluid {
+      width: 100%;
+      height: auto;
+      background-color: #f9f5f6;
+      background-size: cover;
+      padding: 20px;
+    }
+  
+  
+    .page-slider {
+      width: 100%;
+      height: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #f2bed1;
+    }
+  
+  
+    #about {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #f0ebe3;
+      padding: 20px;
+    }
+  
+  
+    #about img {
+      width: 80%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+  
+    #basic-information {
+      width: 100%;
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #f0ebe3;
+      padding: 20px;
+    }
+  
+  
+    #Education {
+      width: 100%;
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #f9f5f6;
+      padding: 20px;
+    }
+  
+  
+    #form {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding: 20px;
+    }
+  
+  
+    #form h3 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+  
+    #form .row {
+      margin-bottom: 20px;
+    }
+  
+  
+    #form .form-group {
+      margin-bottom: 20px;
+    }
+  
+  
+    #form label {
+      font-weight: bold;
+    }
+  
+  
+    #form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+  
+    #form #submit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    #submit li {
+      margin-right: 20px;
+    }
+  }
+  
+  
+  
+  
